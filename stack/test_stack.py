@@ -15,4 +15,15 @@ class TestStack():
         s.push(2)
         output = s.top()
         assert output == 2
+        assert s.stack_size() == 2
+    
+    def test_pop(self):
+        s = Stack()
+
+        s.push(1)
+        s.push(2)
+        output = s.pop()
+        
+        assert output == 2
+        assert s.stack_size() == 1
         

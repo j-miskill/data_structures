@@ -3,4 +3,7 @@ DENV/
 
 # pytest
 .pytest_cache
-/structs/__pycache__
+*.pyc
+
+__pycache__/
+*.py[cod]
