@@ -18,7 +18,7 @@ class Stack:
         if self.size == 0:
             return None
         else:
-            return self.stack[self.size]
+            return self.stack[self.size - 1]
         
     def is_empty(self):
         if self.size == 0:
@@ -31,11 +31,3 @@ class Stack:
     
     def __str__(self):
         return str(self.stack)
-
-
-s = Stack()
-
-for i in range(0,100):
-    s.push(i)
-
-print(s)
