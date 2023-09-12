@@ -1,2 +1,6 @@
 # venv
 DENV/
+
+# pytest
+.pytest_cache
+/structs/__pycache__
