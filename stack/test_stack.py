@@ -26,4 +26,9 @@ class TestStack():
         
         assert output == 2
         assert s.stack_size() == 1
+
+    def test_is_empty(self):
+        s = Stack()
+        assert(s.is_empty() == True)
+
         
